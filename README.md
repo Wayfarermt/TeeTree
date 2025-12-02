@@ -6,6 +6,27 @@
 
 Originally developed in Delphi 5 (1999), TeeTree code runs up to RAD Studio 13.0 Florence 2025.
 
+### Features include:
+
+- Per-node formatting (font, background, size, effects, etc)
+- Node selection, resizing, positioning
+- Database DBTree (automatic hierarchy from datasets)
+- Virtual mode (add children nodes on demand)
+- Node designer
+- Tree Print Preview
+- Node mouse and keyboard events
+- Children node sorting
+- Cross-box styles
+- Checkbox, Radiogroup node selection
+- Custom node shapes
+- Links (connections) between nodes, by mouse or code
+- Zoom and scroll
+- Custom drawing
+- Drag and drop, hot-track
+- Importing and exporting
+- Clipboard copy-paste
+- Tree Diagramm Designer
+  
 
 
 <img width="1000" height="740" alt="image" src="https://github.com/user-attachments/assets/eaf33ce2-ba93-4366-974a-59fa9b101a06" />
