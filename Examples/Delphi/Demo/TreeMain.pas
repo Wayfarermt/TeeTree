@@ -23,7 +23,8 @@ uses
    Graphics, Controls, Forms, Dialogs, ComCtrls, ImgList, ExtCtrls,
    StdCtrls, Menus, Buttons,
    SHDocVw,
-   AnimatedGIF, Base, TeeAbout, TeeProcs, TeeTree, TreeFlow, TeeGDIPlus;
+   AnimatedGIF, Base, TeeAbout, TeeProcs, TeeTree, TreeFlow, TeeGDIPlus,
+  System.ImageList;
 
 type
   TTeeTree2Form = class(TForm)

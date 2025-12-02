@@ -13,9 +13,7 @@ type
     TreeNodeShape1: TTreeNodeShape;
     TreeNodeShape2: TTreeNodeShape;
     TreeNodeShape3: TTreeNodeShape;
-    CardShape1: TCardShape;
     DocumentShape1: TDocumentShape;
-    TitleShape1: TTitleShape;
     CallOutShape1: TCallOutShape;
     PolyLineShape1: TPolyLineShape;
   private

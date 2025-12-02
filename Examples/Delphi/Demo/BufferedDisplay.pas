@@ -31,6 +31,7 @@ type
     procedure Timer1Timer(Sender: TObject);
     procedure CheckBox2Click(Sender: TObject);
     procedure CheckBox1Click(Sender: TObject);
+    procedure FormResize(Sender: TObject);
   private
     { Private declarations }
   public
@@ -63,6 +64,14 @@ end;
 procedure TBufferedDisplayForm.CheckBox2Click(Sender: TObject);
 begin
   Timer1.Enabled:=CheckBox2.Checked;
+end;
+
+procedure TBufferedDisplayForm.FormResize(Sender: TObject);
+begin
+  inherited;
+
+  if Width>800 then // speed opt, it takes a lot to draw a big-big grid
+     Tree1.Grid.Visible:=False;
 end;
 
 procedure TBufferedDisplayForm.CheckBox1Click(Sender: TObject);

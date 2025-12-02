@@ -46,7 +46,7 @@ type
     Function CellRect(Const R:TRect; Row,Col:Integer):TRect;
     Procedure DoClick( Button:TMouseButton; Shift:TShiftState;
                        x,y:Integer); override;
-    procedure DrawShapeCanvas(ACanvas:TCanvas3D; Const R:TRect); override;
+    procedure DrawShapeCanvas(const ACanvas:TCanvas3D; Const R:TRect); override;
     function GetCell(Row, Col: Integer): TGridCellShape; virtual;
     Function GetEditedShape:TTreeNodeShape; override;
     Function GetHandleCursor(x,y:Integer):TCursor; override;
@@ -62,7 +62,7 @@ type
     Procedure ClearSelection;
     Procedure DeleteColumn(Column:Integer);
     Procedure DeleteRow(Row:Integer);
-    Procedure RecalcSize(ACanvas:TCanvas3D); override;
+    Procedure RecalcSize(const ACanvas:TCanvas3D); override;
 
     property Cells[Row,Col:Integer]:TGridCellShape read GetCell; default;
   published
@@ -368,7 +368,7 @@ end;
 
 type TCellAccess=class(TGridCellShape);
 
-procedure TGridShape.DrawShapeCanvas(ACanvas: TCanvas3D; const R: TRect);
+procedure TGridShape.DrawShapeCanvas(const ACanvas: TCanvas3D; const R: TRect);
 var tmpRow : Integer;
     tmpCol : Integer;
     tmpR   : TRect;

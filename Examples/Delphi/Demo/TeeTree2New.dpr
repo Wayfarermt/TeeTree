@@ -3,8 +3,8 @@ program TeeTree2New;
 
 uses
   Forms,
-  TreeMain in 'TreeMain.pas' {TreeMain.TTeeTree2Form: Borland.Vcl.Forms.TForm},
-  Main in 'Main.pas' {Main.TWelcomeForm: Borland.Vcl.Forms.TForm},
+  TreeMain in 'TreeMain.pas' {TeeTree2Form},
+  Main in 'Main.pas' {WelcomeForm},
   Base in 'Base.pas' {BaseForm},
   Starting in 'Starting.pas' {StartingForm},
   Ordering in 'Ordering.pas' {OrderingForm},
@@ -104,7 +104,7 @@ uses
 
 begin
   Application.Initialize;
-  Application.Title := 'TeeTree v2 - What''s New !';
+  Application.Title := 'TeeTree v2.1 - What''s New !';
   Application.CreateForm(TTeeTree2Form, TeeTree2Form);
   Application.Run;
 end.

@@ -6,7 +6,7 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Dialogs,
   FMXTee.Tree, FMX.StdCtrls, System.DateUtils, FMXTee.Procs, FMX.Objects,
-  FMX.Layouts;
+  FMX.Layouts, FMX.Controls.Presentation;
 
 type
   TTeeTree_Mobile_Form = class(TForm)
@@ -106,7 +106,7 @@ begin
   // Create a Tree control manually:
   Tree1:=TTree.Create(Self);
   //Tree1.BoundsRect:=RectF(20,50,250,350);
-  Tree1.Align:=TAlignLayout.alClient;
+  Tree1.Align:=TAlignLayout.Client;
   Tree1.Parent:=Self;
 
   Tree1.Zoom.Allow:=False;

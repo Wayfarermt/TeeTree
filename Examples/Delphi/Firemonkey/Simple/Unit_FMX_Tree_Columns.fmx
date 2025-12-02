@@ -4,9 +4,9 @@ object TreeColumns: TTreeColumns
   Caption = 'TeeTree for FireMonkey - Columns Example'
   ClientHeight = 369
   ClientWidth = 721
-  Position = poScreenCenter
   FormFactor.Width = 1366
   FormFactor.Height = 768
-  FormFactor.Devices = [dkDesktop]
+  FormFactor.Devices = [Desktop, iPhone, iPad]
   OnCreate = FormCreate
+  DesignerMasterStyle = 0
 end

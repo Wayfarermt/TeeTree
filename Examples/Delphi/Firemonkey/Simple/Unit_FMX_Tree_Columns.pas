@@ -29,7 +29,7 @@ var Node,
 begin
   // Create a normal TTree:
   Tree1:=TTree.Create(Self);
-  Tree1.Align:=TAlignLayout.alClient;
+  Tree1.Align:=TAlignLayout.Client;
   Tree1.Parent:=Self;
 
   Tree1.Gradient.Visible:=True;
