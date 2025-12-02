@@ -1,4 +1,4 @@
-{**********************************************}
+﻿{**********************************************}
 {   TTree Component Library.                   }
 {   String constants.                          }
 {   Copyright (c) 1998-2025 by Steema Software }
@@ -78,7 +78,7 @@ var
 Const
   TeeMsg_TeeTreePalette  = 'TeeTree';
   TeeTree_MajorVersion   = '2';
-  TeeTree_MinorVersion   = '.0';
+  TeeTree_MinorVersion   = '.1';
   TreeMsg_TeeTree        = 'TeeTree v'+TeeTree_MajorVersion+TeeTree_MinorVersion;
   TreeMsg_CompNamePrefix = 'TreeShape';
   TreeMsg_TeeExtension   = 'ttr';
