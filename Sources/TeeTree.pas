@@ -1,4 +1,4 @@
-{***************************************************}
+﻿{***************************************************}
 {   TTree Component Library, for VCL and FireMonkey }
 {   Copyright (c) 1998-2025 by Steema Software      }
 {***************************************************}
@@ -8836,7 +8836,7 @@ begin
      ITree.FOnSelectShape(AShape);
 
   // if designing then redraw handles else redraw full tree...
-  if tmp then
+  if tmp and ITree.Showing then
      AShape.InternalDrawHandles
   else
      ITree.Invalidate;
