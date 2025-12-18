@@ -8,6 +8,12 @@ Originally developed in Delphi 5 (1999), TeeTree code runs up to RAD Studio 13.0
 
 ### INSTALLATION INSTRUCTIONS [Click HERE](INSTALL.md)
 
+### Other Steema libraries:
+
+- [TeeChart](https://github.com/Steema/TeeChart-VCL-FMX-Samples)  Charting components
+- [TeeGrid](https://github.com/Steema/TeeGrid-VCL-FMX-Samples)  100% Grid pure Pascal
+- [TeeBI](https://github.com/Steema/TeeBI)  Data-mining, fast queries, big data, visualization
+
 ### Features include:
 
 - Per-node formatting (font, background, size, effects, etc)
@@ -45,7 +51,9 @@ Originally developed in Delphi 5 (1999), TeeTree code runs up to RAD Studio 13.0
 <img width="1489" height="578" alt="image" src="https://github.com/user-attachments/assets/60ba1428-0721-43e6-b358-67618e53cb7b" />
 
 ###
+
 <img width="1813" height="1498" alt="image" src="https://github.com/user-attachments/assets/85aaf372-4b3f-426d-b8e1-73fa9c82af0d" />
+
 ###
 
 
